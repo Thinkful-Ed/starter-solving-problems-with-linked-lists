@@ -1,0 +1,23 @@
+{
+  "name": "starter-solving-problems-with-linked-lists",
+  "version": "1.0.0",
+  "description": "Sample problems and solutions for Problem solving with linked lists.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vramdhanie/starter-solving-problems-with-linked-lists.git"
+  },
+  "keywords": [],
+  "author": "Vincent Ramdhanie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vramdhanie/starter-solving-problems-with-linked-lists/issues"
+  },
+  "homepage": "https://github.com/vramdhanie/starter-solving-problems-with-linked-lists#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
