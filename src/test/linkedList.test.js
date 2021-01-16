@@ -10,7 +10,6 @@ describe("Linked List", () => {
 
     it("should create a list from an array", () => {
       const list = new LinkedList([1, 2]);
-      console.log(list.toString());
       const expected = new LinkedList();
       expected.insertAtHead(2);
       expected.insertAtHead(1);
