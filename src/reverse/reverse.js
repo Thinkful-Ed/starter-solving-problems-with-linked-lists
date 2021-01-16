@@ -9,7 +9,15 @@ const LinkedList = require("../lib/linkedList");
  * @returns {LinkedList}
  * A linked list in reverse order
  */
-function reverseIterative(list) {}
+function reverseIterative(list) {
+  const reversedList = new LinkedList();
+  let node = list.head;
+  while (node) {
+    reversedList.insertAtHead(node.value);
+    node = node.next;
+  }
+  return reversedList;
+}
 
 /**
  * Recursively reverse a linked list
