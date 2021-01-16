@@ -1,3 +1,5 @@
+const LinkedList = require("../lib/linkedList");
+
 /**
  * Iteratively reverse a linked list
  *
