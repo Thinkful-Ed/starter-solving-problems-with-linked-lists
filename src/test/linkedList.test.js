@@ -7,15 +7,20 @@ describe("Linked List", () => {
       expect(list).toBeDefined();
       expect(list.length).toEqual(0);
     });
+
+    it("should create a list from an array", () => {
+      const list = new LinkedList([1, 2]);
+      console.log(list.toString());
+      const expected = new LinkedList();
+      expected.insertAtHead(2);
+      expected.insertAtHead(1);
+      expect(expected).toEqual(list);
+    });
   });
 
   describe("insertAtHead()", () => {
-    let list;
-    before(() => {
-      list = new LinkedList();
-    });
-
     it("should insert node on empty list", () => {
+      const list = new LinkedList();
       list.insertAtHead(5);
       expect(list.length).toEqual(1);
       expect(list.head.value).toEqual(5);

@@ -5,8 +5,12 @@ const Node = require("./node");
  */
 
 class LinkedList {
-  constructor() {
+  constructor(values) {
     this.head = null;
+
+    if (values && Array.isArray(values)) {
+      values.reverse().forEach((value) => this.insertAtHead(value));
+    }
   }
 
   /**
@@ -129,6 +133,32 @@ class LinkedList {
       previousNode.next = matchedNode.next;
     }
     return this;
+  }
+
+  /**
+   * Return the values of the linked list as an array
+   *
+   * @returns {Array}
+   * the values in this linked list in an array
+   */
+  asArray() {
+    const values = [];
+    let node = this.head;
+    while (node) {
+      values.push(node.value);
+      node = node.next;
+    }
+    return values;
+  }
+
+  /**
+   * Create a string representation of this linked list
+   *
+   * @returns {String}
+   * A String representation of this linked list
+   */
+  toString() {
+    return `|${this.asArray().join("->")}|`;
   }
 }
 
