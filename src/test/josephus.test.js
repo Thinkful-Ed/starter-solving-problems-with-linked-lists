@@ -17,7 +17,7 @@ describe("The Josephus Problem", () => {
       "Eurythenes",
     ]);
     const actual = josephus(list, 7);
-    expect(actual).toEqual("Darius");
+    expect(actual).toEqual("Arsames");
   });
 
   it("should work when m is 1", () => {
@@ -28,7 +28,8 @@ describe("The Josephus Problem", () => {
       "Darius",
       "Eurythenes",
     ]);
+    console.log(1);
     const actual = josephus(list, 1);
-    expect(actual).toEqual("Arsames");
+    expect(actual).toEqual("Cyrus");
   });
 });
