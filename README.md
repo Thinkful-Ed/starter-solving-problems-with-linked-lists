@@ -31,3 +31,4 @@ To view the sample solutions checkout the **Solution** branch.
 - [Reverse a linked list](./src/reverse)
 - [Third from end](./src/thirdfromend)
 - [Swap Nodes](./src/swap)
+- [The Josephus Problem](./src/josephus)
