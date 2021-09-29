@@ -1,4 +1,4 @@
-const Node = require("../lib/node");
+const Node = require("./node");
 
 describe("Node", () => {
   it("should instantiate a new Node", () => {

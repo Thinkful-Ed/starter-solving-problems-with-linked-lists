@@ -1,4 +1,4 @@
-const { reverseIterative, reverseRecursive } = require("../reverse/reverse");
+const { reverseIterative, reverseRecursive } = require("./reverse");
 const LinkedList = require("../lib/linkedList");
 
 describe("reverse a list", () => {

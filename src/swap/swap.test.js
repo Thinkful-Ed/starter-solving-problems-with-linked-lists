@@ -1,7 +1,7 @@
 const LinkedList = require("../lib/linkedList");
 const Node = require("../lib/node");
 
-const swap = require("../swap/swap");
+const swap = require("./swap");
 
 describe("The Swap Node Problem", () => {
   it("should return empty list if given empty list", () => {
