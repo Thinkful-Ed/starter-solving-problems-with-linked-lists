@@ -1,4 +1,4 @@
-const LinkedList = require("../lib/linkedList");
+const LinkedList = require("./linkedList");
 
 describe("Linked List", () => {
   describe("constructor", () => {

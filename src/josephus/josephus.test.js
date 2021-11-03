@@ -1,5 +1,5 @@
 const LinkedList = require("../lib/linkedList");
-const josephus = require("../josephus/josephus");
+const josephus = require("./josephus");
 
 describe("The Josephus Problem", () => {
   it("should work with 1 node", () => {

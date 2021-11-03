@@ -1,4 +1,4 @@
-const thirdFromEnd = require("../thirdfromend/thirdfromend");
+const thirdFromEnd = require("./thirdfromend");
 const LinkedList = require("../lib/linkedList");
 
 describe("Third From End", () => {
